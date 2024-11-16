@@ -11,7 +11,7 @@ $anderson = [
 $alexia = [
     'nome' => 'Alexia',
     'idade'=> 30,
-    'profissão'=> 'Programador'
+    'profissão'=> 'Engenheira de Software'
 ];
 
 $robson = [
@@ -20,12 +20,15 @@ $robson = [
     'profissão'=> 'Pedreiro'
 ];
 
-foreach($matheus as $carac => $value){
+foreach($robson as $carac => $value){
 
     echo "$carac =>$value<br>";
 }
+echo "<br> <hr> <br>";
+foreach($alexia as $carac => $value){
 
-
+    echo "$carac =>$value<br>";
+}
 
 
 
